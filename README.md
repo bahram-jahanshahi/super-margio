@@ -112,12 +112,44 @@ List<Student> students = aiAgent.merge(
 
 ---
 
+
 ## 🌟 Conclusion
 
 - The **traditional approach** is best when you need reliability and performance.  
 - The **Agentic AI approach** is a glimpse into the future — less boilerplate, more intent-driven development.  
 
 This repo is a **first step in teaching our brain to think agentically** when building modern applications.  
+
+---
+
+## 🔮 Further Work: Evaluating Agentic AI
+
+While the Agentic AI approach looks promising, it’s important to **evaluate if it actually works well in practice**. Some directions for further work include:  
+
+1. **Correctness of Output**  
+   - Compare AI-generated results against expected results.  
+   - Check if all `Person` records are correctly merged into `Student` objects.  
+   - Validate type mappings (e.g., `Long id` → `String id`).  
+
+2. **Determinism & Consistency**  
+   - Run the same prompt multiple times and verify that the outputs are consistent.  
+   - Log variations to see if the AI introduces unnecessary changes.  
+
+3. **Performance**  
+   - Benchmark the time taken by the AI approach vs. the traditional Java approach.  
+   - Consider overhead of API calls to the LLM.  
+
+4. **Scalability**  
+   - Test with small lists (dozens of records) vs. large lists (thousands).  
+   - Observe how well the AI handles JSON serialization of large inputs.  
+
+5. **Error Handling**  
+   - Inject malformed data or unexpected fields into the `Person` list.  
+   - Evaluate how the AI responds: does it fail gracefully or produce invalid JSON?  
+
+6. **Cost & Practicality**  
+   - Measure token usage (input/output size) and calculate costs if using a paid LLM API.  
+   - Decide when it’s worth using AI vs. sticking with deterministic Java code.  
 
 ---
 
