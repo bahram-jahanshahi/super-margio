@@ -122,6 +122,5 @@ This repo is a **first step in teaching our brain to think agentically** when bu
 ---
 
 ## 📖 Medium Page
-
-- [Teaching Your Brain to Think Agentic: Merging Lists with AI in Spring]([https://medium.com/your-article-link](https://medium.com/@bahram.jahanshahi/teaching-your-brain-to-think-agentic-merging-lists-with-ai-in-spring-612a387e0c91))  
+[Teaching Your Brain to Think Agentic: Merging Lists with AI in Spring](https://medium.com/@bahram.jahanshahi/teaching-your-brain-to-think-agentic-merging-lists-with-ai-in-spring-612a387e0c91)
 
